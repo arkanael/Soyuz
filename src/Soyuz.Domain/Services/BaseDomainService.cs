@@ -10,7 +10,27 @@ namespace Soyuz.Domain.Services
     {
         public virtual void Cadastrar(TEntity entity)
         {
-            
+            throw new NotImplementedException(); //TODO..
+        }
+
+        public virtual void Alterar(TEntity entity)
+        {
+            throw new NotImplementedException(); //TODO..
+        }
+
+        public virtual void Excluir(TEntity entity)
+        {
+            throw new NotImplementedException(); //TODO..
+        }
+
+        public virtual List<TEntity> ObterTodos()
+        {
+            throw new NotImplementedException(); //TODO..
+        }
+
+        public virtual TEntity ObterPorId(Guid id)
+        {
+            throw new NotImplementedException(); //TODO..
         }
     }
 }
