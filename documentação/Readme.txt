@@ -27,3 +27,16 @@ DIP - Principio de Inversão de Dependência
 Classes de alto nivelnão devem ter contato com classes
 de baixo nivel e sim com as suas interfaces.
 
+Entity Framework
+O Microsoft® ADO.NET Entity Framework é um framework do tipo ORM
+(Object/Relational Mapping) que permite aos desenvolvedores trabalhar
+com dados relacionais como objetos de domínio específico, eliminando a
+necessidade de maior parte dos códigos de acesso de dados que os
+desenvolvedores geralmente precisam escrever. Com o Entity Framework,
+os desenvolvedores podem lançar consultas usando expressões LAMBDA, e
+depois recuperar e manipular dados como objetos fortemente tipificados.
+A implementação do ORM do Entity Framework fornece serviços como
+rastreamento de alterações, resolução de identidades, lazy loading e
+tradução de consultas para que os desenvolvedores possam se concentrar
+na lógica de negócios de seus aplicativos em vez dos princípios básicos de
+acesso a dados.
