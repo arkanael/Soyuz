@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace Soyuz.Domain.Services
 {
-    public class ClienteDomainService: BaseDomainService<Cliente>
+    public class PlanoDomainService : BaseDomainService<Plano>
     {
-        private readonly IClienteRepository repository;
+        private readonly IPlanoRepository repository;
 
-        public ClienteDomainService(IClienteRepository repository):base(repository)
+        public PlanoDomainService(IPlanoRepository repository):base(repository)
         {
             this.repository = repository;
         }

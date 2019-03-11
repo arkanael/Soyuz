@@ -43,11 +43,13 @@
   <ItemGroup>
     <Compile Include="Contracts\Repositories\IBaseRepository.cs" />
     <Compile Include="Contracts\Repositories\IClienteRepository.cs" />
-    <Compile Include="Contracts\Services\BaseDomainService.cs" />
+    <Compile Include="Contracts\Repositories\IPlanoRepository.cs" />
     <Compile Include="Entities\Cliente.cs" />
+    <Compile Include="Entities\Plano.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\BaseDomainService.cs" />
     <Compile Include="Services\ClienteDomainService.cs" />
+    <Compile Include="Services\PlanoDomainService.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
