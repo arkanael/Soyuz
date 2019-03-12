@@ -1,14 +1,10 @@
 ﻿using Soyuz.Domain.Contracts.Repositories;
+using Soyuz.Domain.Contracts.Services;
 using Soyuz.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Soyuz.Domain.Services
 {
-    public class PlanoDomainService : BaseDomainService<Plano>
+    public class PlanoDomainService : BaseDomainService<Plano>, IPlanoDomainService
     {
         private readonly IPlanoRepository repository;
 

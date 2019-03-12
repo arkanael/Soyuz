@@ -44,6 +44,9 @@
     <Compile Include="Contracts\Repositories\IBaseRepository.cs" />
     <Compile Include="Contracts\Repositories\IClienteRepository.cs" />
     <Compile Include="Contracts\Repositories\IPlanoRepository.cs" />
+    <Compile Include="Contracts\Services\IBaseDomainService.cs" />
+    <Compile Include="Contracts\Services\IClienteDomainService.cs" />
+    <Compile Include="Contracts\Services\IPlanoDomainService.cs" />
     <Compile Include="Entities\Cliente.cs" />
     <Compile Include="Entities\Plano.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

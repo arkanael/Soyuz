@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Soyuz.Domain.Entities
 {
@@ -13,5 +9,7 @@ namespace Soyuz.Domain.Entities
         public string Email { get; set; }
         public DateTime DataNascimento { get; set; }
         public Guid IdPlano { get; set; }
+
+        public Plano Plano { get; set; }
     }
 }
